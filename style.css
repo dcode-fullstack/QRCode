@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: skyblue;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    background-color: white;
+    color: black;
+    width: 300px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.container img {
+    margin: 25px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.container h3 {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.container p {
+    width: 200px;
+    margin-bottom: 20px;
+}
